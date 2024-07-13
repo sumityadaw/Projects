@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\umred\OneDrive\Desktop\Embded_c\password_project\project.uvproj
+Project File Date:  06/01/2024
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling door_lock.c...
+linking...
+Program Size: Code=2604 RO-data=32 RW-data=28 ZI-data=1260  
+FromELF: creating hex file...
+".\project_lockDoor.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+ed
+          case USB_EVT_IN:
+usbuser.c(14): warning:  #223-D: function "GetInReport" declared implicitly
+          GetInReport();
+usbuser.c(15): warning:  #223-D: function "USB_WriteEP" declared implicitly
+          USB_WriteEP(0x81, &InReport, sizeof(InReport));
+usbuser.c(15): error:  #20: identifier "InReport" is undefined
+          USB_WriteEP(0x81, &InReport, sizeof(InReport));
+usbuser.c(18): warning:  #1-D: last line of file ends without a newline
+  }
+usbuser.c: 3 warnings, 3 errors
+".\project_lockDoor.axf" - 3 Error(s), 3 Warning(s).
+Target not created

@@ -1,0 +1,6 @@
+-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork 
+-I C:\Keil\ARM\RV31\INC
+-I C:\Keil\ARM\CMSIS\Include
+-I C:\Keil\ARM\Inc\Philips
+
+-o .\door34.o --omf_browse .\door34.crf --depend .\door34.d "door34.c"

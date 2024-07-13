@@ -1,0 +1,6 @@
+-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork 
+-I C:\Keil\ARM\RV31\INC
+-I C:\Keil\ARM\CMSIS\Include
+-I C:\Keil\ARM\Inc\Philips
+
+-o .\door_lock2.o --omf_browse .\door_lock2.crf --depend .\door_lock2.d "door_lock2.c"

@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\door_lock2.o"
+--strict --scatter ".\project_lockDoor2.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\project_lockDoor2.map" -o .\project_lockDoor2.axf

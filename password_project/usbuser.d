@@ -1,0 +1,1 @@
+.\usbuser.o: usbuser.c

@@ -1,0 +1,10 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\passwordmain.o"
+".\lcd.o"
+".\delay.o"
+".\kpm.o"
+--strict --scatter ".\Passord_check.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Passord_check.map" -o .\Passord_check.axf
